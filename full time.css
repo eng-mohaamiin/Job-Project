@@ -1,0 +1,928 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*------------------------------ start header -----------------------------*/
+.all{
+    background-color:#1f4a40;
+    padding-bottom:100px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color:#1f4a40;
+    position: fixed;
+    width: 1520px;
+    height: 80px;
+}
+
+.logo img{
+    width: 130px;
+    margin-left: 100px;
+    margin-top: 30px;
+    
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 600px;
+}
+
+nav ul li a{
+    padding: 20px;
+    font-size: 22px;
+    font-family: sans-serif;
+     text-decoration: none;
+     color: white;
+}
+
+.btn1 button{
+    margin-top: 30px;
+    font-size: 20px;
+    border: transparent;
+    margin-right: 150px;
+    background-color:  white;
+    width: 75px;
+    height: 35px;
+    border-radius: 15px;
+    color:teal;
+}
+
+
+
+
+/*----------------------------------- end header ----------------------------- */
+
+
+/*------------------------------ start hero section --------------------------- */
+
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+}
+.text-hero h1{
+    margin-top: 330px;
+    margin-left: 100px;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: white;
+
+}
+
+
+
+.text-hero p{
+    margin-top: 25px;
+    margin-left: 100px;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: white;
+
+}
+
+
+
+.search {
+    margin-left: 100px;
+    margin-top: 30px;
+    display: flex;
+    background-color: white;
+    width: 480px;
+    height: 45px;
+    border-radius: 15px;
+ }
+
+
+
+ .btns5 button{
+    margin-left: 140px;
+    margin-top: 7px;
+    border: none;
+    border-radius: 20px;
+    background-color: #51a995;
+    color: white;
+    width: 90px;
+    height: 34px;
+    font-size: 16px;
+    
+ }
+
+ .btns5 button:hover{
+    background-color: #02636e;
+    transition: 1s;
+    cursor: pointer;
+ }
+
+
+ .inputss input{
+    margin-top: 12px;
+    font-size: 14px;
+    margin-left: 15px;
+    width: 220px;
+    border: transparent;
+    background: transparent;
+    outline: none;
+
+ 
+
+ }
+
+
+
+ .image-hero img{
+    width: 700px;
+    margin-top: 240px;
+    margin-right:170px;
+
+ }
+
+  
+
+
+ /* -------------------------------end hero section  ----------------------------*/
+
+
+
+
+ /*---------------------------------- start something done ---------------------------- */
+
+
+ .text-something h1{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-family: sans-serif;
+ }
+
+ .text-something p{
+    margin-top: 10px;
+    margin-left: 100px;
+ }
+
+
+
+ /*------------------------ start featured -------------------------- */
+.featured{
+    display: flex;
+}
+
+/* featured one  */
+ .featured-one img{
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 80px;
+ }
+
+ .featured-one h2{
+    margin-left: 100px;
+    margin-top: 15px;
+    font-family: sans-serif;
+
+}
+ 
+.featured-one p{
+    margin-left: 100px;
+    margin-top: 15px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #757272;
+    line-height: 26px;
+
+}
+
+
+
+/* featured two  */
+.featured-two img{
+    width: 100px;
+    margin-left: 70px;
+    margin-top: 80px;
+ }
+
+ .featured-two h2{
+    margin-left: 70px;
+    margin-top: 15px;
+    font-family: sans-serif;
+
+}
+ 
+.featured-two p{
+    margin-left: 70px;
+    margin-top: 15px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #757272;
+    line-height: 26px;
+
+}
+
+
+
+
+
+/* featured three  */
+.featured-three img{
+    width: 100px;
+    margin-top: 80px;
+    margin-left: 70px;
+ }
+
+ .featured-three h2{
+    margin-top: 15px;
+    font-family: sans-serif;
+    margin-left: 70px;
+
+}
+ 
+.featured-three p{
+    margin-left: 70px;
+    margin-top: 15px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #757272;
+    line-height: 26px;
+
+}
+
+
+
+
+/* featured four  */
+.featured-four img{
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 80px;
+ }
+
+ .featured-four h2{
+    margin-left: 100px;
+    margin-top: 15px;
+    font-family: sans-serif;
+
+}
+ 
+.featured-four p{
+    margin-left: 100px;
+    margin-top: 15px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #757272;
+    line-height: 26px;
+
+}
+
+
+/*------------------------------- end something done -------------------------- --*/
+
+
+
+/*---------------------------------- start jobs ------------------------------- */
+.jobs{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 15px rgb(0, 0, 0,0.1) ;
+    width: 1320px;
+    height: 60px;
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+}
+
+.text-jobs h1{
+    margin-top: 150px;
+    margin-left: 100px;
+    font-size: 35px;
+    font-family: sans-serif;
+
+}
+
+
+.text-jobs p{
+    margin-top: 15px;
+    margin-left: 100px;
+    font-size:20px;
+    font-family: sans-serif;
+    color: #626060;
+
+
+} 
+
+
+.color{
+   
+    color: black;
+    width:150px;
+    height: 60px;
+    font-size: 17px;
+    font-family: sans-serif;
+    padding-top: 17px;
+    text-align: center;
+}
+
+/* job two  */
+.job-two h3{
+    margin-right: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-top: 17px;
+}
+
+.color3{
+    background-color: #51a995;
+    color: white;
+    padding-left: 25px;
+}
+
+
+
+
+/*-------------------------- star icon text and btn----------------------------- */
+
+.icons-and-btns{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    margin-left: 100px;
+    margin-right: 90px;
+    margin-bottom: 40px;
+    height: 80px;
+    cursor: pointer;
+}
+.icons-and-btns:hover{
+    background-color: #ecf1ee;
+}
+.google-img img{
+    width:40px;
+    margin-left: 30px;
+    margin-top: 20px;
+    
+}
+
+
+/* text one  */
+
+.text-1 h5{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+
+.prg p{
+    font-family: sans-serif;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+
+
+/* btn2 */
+.btn2 button{
+    margin-right: 200px;
+    margin-top: 25px;
+    background-color: #edcfee;
+    color: black;
+    border: transparent;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+
+}
+
+ 
+
+/*---------------------------------- end jobs ------------------------------- */
+
+
+
+
+
+
+/*-------------------------------- start trust world----------------------------- */
+
+
+.text-trust h1{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-family: sans-serif;
+}
+
+
+.text-trust p{
+    margin-top: 15px;
+    margin-left: 100px;
+    font-family: sans-serif;
+}
+
+
+/* -----------start icons amazon------------- */
+
+.container-amazon{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+/*------------------- end icons amazon ------------------------*/
+
+
+
+/*------------------------ start cards --------------------------- */
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* card one  */
+.card-one{
+    border: 1px solid #ccc;
+     width: 300px;
+     margin-left: 100px;
+     height: 340px;
+     margin-top: 100px;
+     border-radius: 20px;
+}
+
+.card-one img{
+   border-radius: 100px;
+   margin-left: 100px;
+   margin-top: 40px;
+}
+
+.card-one h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+.container-html{
+    display: flex;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+
+/* html  */
+
+.html  h5{
+    background-color: #edcfee;
+    font-weight:540;
+    width:70px;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+
+
+/* css */
+.css h5{
+    background-color: #edcfee;
+    font-weight:540;
+    width:60px;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin-left: 5px;
+}
+
+
+/* js  */
+.js h5{
+    background-color: #edcfee;
+    font-weight:540;
+    width:50px;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin-left: 5px;
+}
+
+
+
+.btn3 button{
+    margin-left: 70px;
+    margin-top: 40px;
+    background-color: #51a995;
+    border: transparent;
+    color: white;
+    font-size: 18px;
+    border-radius: 100px;
+    width: 160px;
+    height: 45px;
+
+}
+
+.btn3 button:hover{
+    background-color: #02636e;
+    transition: 1s;
+    cursor: pointer;
+ }
+
+
+
+/* card two  */
+.card-two{
+    border: 1px solid #ccc;
+     width: 300px;
+     height: 340px;
+     margin-top: 100px;
+     border-radius: 20px;
+}
+
+.card-two img{
+   border-radius: 100px;
+   margin-left: 100px;
+   margin-top: 40px;
+}
+
+.card-two h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+.container-html{
+    display: flex;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+
+/* html  */
+
+.html  h5{
+    background-color: #edcfee;
+    font-weight:540;
+    width:70px;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+
+
+/* css */
+.css h5{
+    background-color: #edcfee;
+    font-weight:540;
+    width:60px;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin-left: 5px;
+}
+
+
+/* js  */
+.js h5{
+    background-color: #edcfee;
+    font-weight:540;
+    width:50px;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin-left: 5px;
+}
+
+
+
+.btn3 button{
+    margin-left: 70px;
+    margin-top: 40px;
+    background-color: #51a995;
+    border: transparent;
+    color: white;
+    font-size: 18px;
+    border-radius: 100px;
+    width: 160px;
+    height: 45px;
+
+}
+
+.btn3 button:hover{
+    background-color: #02636e;
+    transition: 1s;
+    cursor: pointer;
+ }
+
+
+
+
+
+
+/* card three  */
+.card-three{
+    border: 1px solid #ccc;
+     width: 300px;
+     height: 340px;
+     margin-top: 100px;
+     border-radius: 20px;
+}
+
+.card-three img{
+   border-radius: 100px;
+   margin-left: 100px;
+   margin-top: 40px;
+}
+
+.card-three h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+.container-html{
+    display: flex;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+
+/* html  */
+
+.html  h5{
+    background-color: #edcfee;
+    font-weight:540;
+    width:70px;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+
+
+/* css */
+.css h5{
+    background-color: #edcfee;
+    font-weight:540;
+    width:60px;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin-left: 5px;
+}
+
+
+/* js  */
+.js h5{
+    background-color: #edcfee;
+    font-weight:540;
+    width:50px;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin-left: 5px;
+}
+
+
+
+.btn3 button{
+    margin-left: 70px;
+    margin-top: 40px;
+    background-color: #51a995;
+    border: transparent;
+    color: white;
+    font-size: 18px;
+    border-radius: 100px;
+    width: 160px;
+    height: 45px;
+
+}
+
+.btn3 button:hover{
+    background-color: #02636e;
+    transition: 1s;
+    cursor: pointer;
+ }
+
+
+
+
+
+
+/* card four  */
+.card-four{
+    border: 1px solid #ccc;
+     width: 300px;
+     height: 340px;
+     margin-top: 100px;
+     border-radius: 20px;
+     margin-right: 80px;
+}
+
+.card-four img{
+   border-radius: 100px;
+   margin-left: 100px;
+   margin-top: 40px;
+}
+
+.card-four h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+.container-html{
+    display: flex;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+
+/* html  */
+
+.html  h5{
+    background-color: #edcfee;
+    font-weight:540;
+    width:70px;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+
+
+/* css */
+.css h5{
+    background-color: #edcfee;
+    font-weight:540;
+    width:60px;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin-left: 5px;
+}
+
+
+/* js  */
+.js h5{
+    background-color: #edcfee;
+    font-weight:540;
+    width:50px;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin-left: 5px;
+}
+
+
+
+.btn3 button{
+    margin-left: 70px;
+    margin-top: 40px;
+    background-color: #51a995;
+    border: transparent;
+    color: white;
+    font-size: 18px;
+    border-radius: 100px;
+    width: 160px;
+    height: 45px;
+
+}
+
+
+.btn3 button:hover{
+    background-color: #02636e;
+    transition: 1s;
+    cursor: pointer;
+ }
+
+
+ /*-------------------------------start cards ----------------------------- --*/
+
+
+ .footer{
+    background-color: #1f4a40;
+    margin-top: 100px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+
+ .img-logo img{
+    width: 130px;
+    margin-left: 100px;
+    margin-top: 60px;
+ }
+
+ .img-logo  h2{
+    margin-left: 100px;
+    margin-top: 50px;
+    color: white;
+    font-family: sans-serif;
+ }
+ .img-logo  p{
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+ }
+
+
+ /* community  */
+ .community  h2{
+    margin-right: 100px;
+    margin-top: 205px;
+    color: white;
+    font-family: sans-serif;
+ }
+ .community  p{
+    margin-right: 100px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+ }
+
+
+
+
+
+
+
+ 
+ /* help  */
+ .help  h2{
+    margin-right: 100px;
+    margin-top: 205px;
+    color: white;
+    font-family: sans-serif;
+ }
+ .help  p{
+    margin-right: 100px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+ }
+
+
+
+ /* social  */
+ .social{
+    margin-top: 100px;
+    margin-right: 100px;
+
+ }
+ .social i{
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+ }
+
+
+ .social  h2{
+    margin-right: 100px;
+    margin-top: 60px;
+    color: white;
+    font-family: sans-serif;
+ }
+ .social  p{
+    margin-right: 100px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+ }
+
+
+
+
+ .sub p{
+    text-align: center;
+    background-color:#1f4a40;
+    color: white;
+    font-size: 25px;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+/*------------------------------- end sub footer-------------------------- */
+
+
+/*------------------------ end footer------------------------------------- */

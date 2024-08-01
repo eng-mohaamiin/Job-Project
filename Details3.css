@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*------------------------------ start header -----------------------------*/
+.all{
+    background-color:#1f4a40;
+    padding-bottom:100px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color:#1f4a40;
+    position: fixed;
+    width: 1520px;
+    height: 80px;
+}
+
+.logo img{
+    width: 130px;
+    margin-left: 100px;
+    margin-top: 30px;
+    
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-top: 35px;
+    margin-left: 660px;
+}
+
+nav ul li a{
+    padding: 20px;
+    font-size: 22px;
+    font-family: sans-serif;
+     text-decoration: none;
+     color: white;
+}
+
+.btn1 button{
+    margin-top: 30px;
+    font-size: 20px;
+    border: transparent;
+    margin-right: 150px;
+    background-color:  white;
+    width: 75px;
+    height: 35px;
+    border-radius: 15px;
+    color:teal;
+}
+
+ 
+
+/*----------------------------------- end header ----------------------------- */
+
+
+
+/*----------------------- start border radius google ----------------------*/
+
+
+.google{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #51a995;
+    margin-top: 100px;
+    width: 1270px;
+    height: 120px;
+    margin-left: 100px;
+    border-radius: 15px;
+    background-color: #f3f7f6;
+}
+
+.img-google img{
+    width: 50px;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+
+.text-google h1{
+    font-family: sans-serif;
+    margin-top: 35px;
+    margin-right: 680px;
+    font-size: 30px;
+}
+
+
+
+.text-google p{
+    font-family: sans-serif;
+    padding-top: 7px;
+  
+}
+
+
+
+.btn6 button{
+    margin-right:30px ;
+    margin-top: 35px;
+    background-color: #51a995;
+    border: transparent;
+    color: white;
+    font-size: 18px;
+    border-radius: 100px;
+    width: 160px;
+    height: 45px;
+
+}
+
+
+.btn6 button:hover{
+    background-color: #02636e;
+    transition: 1s;
+    cursor: pointer;
+ }
+
+
+
+ /*------------------------- end border radius google------------------------- */
+
+
+
+ /*------------------------------ start position-------------------------- */
+
+.positions{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* part one  */
+ .vacancy img{
+    width: 60px;
+    margin-left: 100px;
+    margin-top: 60px;
+ }
+
+
+ .vacancy h1{
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+ }
+
+
+ .vacancy p{
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #626060;
+ }
+
+
+
+
+ 
+/* part two  */
+.position img{
+    width: 60px;
+    margin-top: 60px;
+ }
+
+
+ .position h1{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+ }
+
+
+ .position p{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #626060;
+ }
+
+
+
+
+ 
+/* part three  */
+.hours img{
+    width: 60px;
+    margin-top: 60px;
+    
+ }
+
+
+ .hours h1{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+ }
+
+
+ .hours p{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #626060;
+ }
+
+
+ 
+ 
+/* part four  */
+.salary img{
+    width: 60px;
+    margin-top: 60px;
+    margin-right: 400px;
+ }
+
+
+ .salary h1{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+ }
+
+
+ .salary p{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #626060;
+ }
+
+
+ /* -------------------------------end positons ----------------------------- */
+
+
+
+/* ---------------------------start text position -------------------------- */
+ .container-text-postion h1{
+    margin-left: 100px;
+    margin-top: 70px;
+    font-size: 20px;
+    font-family: sans-serif;
+ }
+
+
+ .container-text-postion p{
+    margin-left: 100px;
+    margin-top: 15px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #626060;
+    line-height: 27px;
+ }
+
+
+ 
+ .text-two-position h1{
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-size: 23px;
+    margin-left: 100px;
+ }
+
+
+ 
+ 
+ .text-two-position p{
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 100px;
+    color: #626060;
+ }
+
+
+ /* -------------------------end text positon --------------------------------- */
+
+
+ 
+
+ /*-------------------------------- start footer ------------------------------- */
+ .footer{
+    background-color: #1f4a40;
+    margin-top: 100px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+
+ .img-logo img{
+    width: 130px;
+    margin-left: 100px;
+    margin-top: 60px;
+ }
+
+ .img-logo  h2{
+    margin-left: 100px;
+    margin-top: 50px;
+    color: white;
+    font-family: sans-serif;
+ }
+ .img-logo  p{
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+ }
+
+
+ /* community  */
+ .community  h2{
+    margin-right: 100px;
+    margin-top: 205px;
+    color: white;
+    font-family: sans-serif;
+ }
+ .community  p{
+    margin-right: 100px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+ }
+
+
+
+
+
+
+
+ 
+ /* help  */
+ .help  h2{
+    margin-right: 100px;
+    margin-top: 205px;
+    color: white;
+    font-family: sans-serif;
+ }
+ .help  p{
+    margin-right: 100px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+ }
+
+
+
+ /* social  */
+ .social{
+    margin-top: 100px;
+    margin-right: 100px;
+
+ }
+ .social i{
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+ }
+
+
+ .social  h2{
+    margin-right: 100px;
+    margin-top: 60px;
+    color: white;
+    font-family: sans-serif;
+ }
+ .social  p{
+    margin-right: 100px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+ }
+
+
+
+
+ .sub p{
+    text-align: center;
+    background-color:#1f4a40;
+    color: white;
+    font-size: 25px;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+/*------------------------------- end sub footer-------------------------- */
+
+
+/*------------------------ end footer------------------------------------- */
